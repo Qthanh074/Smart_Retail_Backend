@@ -22,11 +22,13 @@
 @REM Apache Maven Wrapper startup batch script, version 3.3.4
 @REM
 @REM Optional ENV vars
+
 @REM   MVNW_REPOURL - repo url base for downloading maven distribution
 @REM   MVNW_USERNAME/MVNW_PASSWORD - user and password for downloading maven
 @REM   MVNW_VERBOSE - true: enable verbose log; others: silence the output
 @REM ----------------------------------------------------------------------------
-
+@SET JAVA_HOME=C:\Program Files\Java\jdk-17
+@SET PATH=%JAVA_HOME%\bin;%PATH%javac -version
 @IF "%__MVNW_ARG0_NAME__%"=="" (SET __MVNW_ARG0_NAME__=%~nx0)
 @SET __MVNW_CMD__=
 @SET __MVNW_ERROR__=
